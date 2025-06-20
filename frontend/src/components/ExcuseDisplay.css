@@ -1,0 +1,34 @@
+/* src/components/ExcuseDisplay.css */
+.excuse-container {
+  text-align: center;
+  padding: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.excuse-message {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.excuse-meta {
+  color: #777;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
